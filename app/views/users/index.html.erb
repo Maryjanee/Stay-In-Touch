@@ -6,7 +6,12 @@
         <span class="profile-link">
           <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
         </span>
+        <% unless user.id == current_user.id || current_user.friends.include?(user) %>
+          <%= button_to "Invite To Friendship", friendships_path, params: {friend_id: user.id} %>
+        <% end %>
       </li>
     <% end %>
   </ul>
 </section>
+
+
