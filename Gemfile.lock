@@ -46,11 +46,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arel (9.0.0)
     ast (2.4.1)
-<<<<<<< HEAD
-    bcrypt (3.1.13)
-=======
     bcrypt (3.1.16)
->>>>>>> feature/friendships
     bindex (0.8.1)
     bootsnap (1.4.8)
       msgpack (~> 1.0)
@@ -113,11 +109,7 @@ GEM
     parallel (1.19.2)
     parser (2.7.1.4)
       ast (~> 2.4.1)
-<<<<<<< HEAD
-    pg (1.2.2)
-=======
     pg (1.2.3)
->>>>>>> feature/friendships
     public_suffix (4.0.6)
     puma (3.12.6)
     rack (2.2.3)
@@ -173,14 +165,8 @@ GEM
       rspec-expectations (~> 3.9)
       rspec-mocks (~> 3.9)
       rspec-support (~> 3.9)
-<<<<<<< HEAD
-    rspec-support (3.9.2)
-    rubocop (0.81.0)
-      jaro_winkler (~> 1.5.1)
-=======
     rspec-support (3.9.3)
     rubocop (0.91.1)
->>>>>>> feature/friendships
       parallel (~> 1.10)
       parser (>= 2.7.1.1)
       rainbow (>= 2.2.2, < 4.0)
@@ -189,15 +175,12 @@ GEM
       rubocop-ast (>= 0.4.0, < 1.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-<<<<<<< HEAD
-=======
     rubocop-ast (0.4.2)
       parser (>= 2.7.1.4)
     rubocop-rails (2.8.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 0.87.0)
->>>>>>> feature/friendships
     ruby-progressbar (1.10.1)
     ruby_dep (1.5.0)
     sass (3.7.4)
@@ -233,13 +216,8 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.7.0)
-<<<<<<< HEAD
-    warden (1.2.8)
-      rack (>= 2.0.6)
-=======
     warden (1.2.9)
       rack (>= 2.0.9)
->>>>>>> feature/friendships
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -266,12 +244,8 @@ DEPENDENCIES
   puma (~> 3.12)
   rails (~> 5.2.4)
   rspec-rails (~> 4.0.1)
-<<<<<<< HEAD
-  rubocop (~> 0.81.0)
-=======
   rubocop
   rubocop-rails
->>>>>>> feature/friendships
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
@@ -284,4 +258,4 @@ RUBY VERSION
    ruby 2.7.0p0
 
 BUNDLED WITH
-   2.1.4
+   2.1.2
