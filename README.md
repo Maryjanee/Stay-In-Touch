@@ -11,7 +11,6 @@
 - MacOS
 - VSCode
 
-
 ## Live Demo
 
 [Live Demo Link ] (https://warm-ravine-81710.herokuapp.com/users/sign_in)
