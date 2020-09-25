@@ -1,15 +1,18 @@
-# Scaffold for social media app with Ruby on Rails
+# Stay In Touch 
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> This is a social media application with that allows users create accounts,send friendship requests to other existing users and view posts written by accepted friends .
 
 ## Built With
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
+- MacOS
+- VSCode
+- SCSS
 
 ## Live Demo
 
-TBA
+[Live Demo Link ] (https://warm-ravine-81710.herokuapp.com/users/sign_in)
 
 
 ## Getting Started
@@ -24,27 +27,15 @@ Postgres: >=9.5
 
 ### Setup
 
-Instal gems with:
-
+1. Clone this repository by using the Terminal to navigate to the desired location on your computer and then enter the following line of code into the Terminal:
 ```
-bundle install
+git clone git@github.com:Maryjanee/Stay-In-Touch.git
 ```
-
-Setup database with:
-
-```
-   rails db:create
-   rails db:migrate
-```
-
-### Github Actions
-
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
-
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
+2. Run `cd Stay-In-Touch` to move inside the downloaded repository.
+3. Run `bundle install` and `Yarn install` seperately to download the project's dependencies.
+4. Run `yarn check --integrity` to verify that the package dependencies have not been altered.
+4. Run `rails db:setup` and `rails db:migrate` to set up your local database.
+5. Run `rails console` to open a console in the environment. From here you will be able to make edits to the application from your local environment.
 
 
 ### Usage
@@ -63,21 +54,30 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
+T## Authors
 
-### Deployment
+👤 **Maryjane Akpagbue**
 
-TBA
+- Github: [Maryjanee](https://github.com/Maryjanee)
+- Twitter: [Maryjane Akpagbue](https://twitter.com/alfredmaryjane)
+- Linkedin: [Maryjane Akpagbue](https://www.linkedin.com/in/maryjane-akpagbue)
 
-## Authors
 
-TBA
+👤 **Joe Burke**
 
-## 🤝 Contributing
+- Github: [@Joseph-Burke](hhttps://github.com/Joseph-Burke)
+- Twitter: [@__joeburke](https://twitter.com/__joeburke)
+- Linkedin: [Joseph Burke](https://www.linkedin.com/in/--joeburke)
 
-Contributions, issues and feature requests are welcome!
+## Contributing
 
-Feel free to check the [issues page](issues/).
+- To contribute to this project:
+- Fork this repository & clone locally.
+- Create an upstream remote and sync your local copy.
+- create a new branch.
+- Push your code to your origin repository.
+- Create a new Pull Request .
+
 
 ## Show your support
 
@@ -85,9 +85,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+- Microverse
 
-## 📝 License
 
-TBA
 
