@@ -2,13 +2,15 @@
 
 > This is a social media application with that allows users create accounts,send friendship requests to other existing users and view posts written by accepted friends .
 
+[A screenshot of the the posts page] (app/assets/images/stay-in-touch.png)
+
 ## Built With
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
 - MacOS
 - VSCode
-- SCSS
+
 
 ## Live Demo
 
