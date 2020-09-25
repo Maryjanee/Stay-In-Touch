@@ -1,6 +1,6 @@
 # Stay In Touch 
 
-> This is a social media application with that allows users create accounts,send friendship requests to other existing users and view posts written by accepted friends .
+> "Stay In Touch" is a social media application with that allows users create accounts,send friendship requests to other existing users and view posts written by accepted friends .
 
 ![A screenshot of the the posts page](app/assets/images/stay-in-touch.png)
 
@@ -73,14 +73,12 @@ Open `http://localhost:3000/` in your browser.
 - Linkedin: [Joseph Burke](https://www.linkedin.com/in/--joeburke)
 
 
-
-
 ## Contributing
 
 - To contribute to this project:
 - Fork this repository & clone locally.
 - Create an upstream remote and sync your local copy.
-- create a new branch.
+- Create a new branch.
 - Push your code to your origin repository.
 - Create a new Pull Request .
 
