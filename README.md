@@ -2,7 +2,7 @@
 
 > This is a social media application with that allows users create accounts,send friendship requests to other existing users and view posts written by accepted friends .
 
-[A screenshot of the the posts page] (app/assets/images/stay-in-touch.png)
+![A screenshot of the the posts page](app/assets/images/stay-in-touch.png)
 
 ## Built With
 
@@ -17,15 +17,14 @@
 [Live Demo Link ] (https://warm-ravine-81710.herokuapp.com/users/sign_in)
 
 
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+- Ruby: 2.6.3
+- Rails: 5.2.3
+- Postgres: >=9.5
+
+
 
 ### Setup
 
@@ -38,6 +37,7 @@ git clone git@github.com:Maryjanee/Stay-In-Touch.git
 4. Run `yarn check --integrity` to verify that the package dependencies have not been altered.
 4. Run `rails db:setup` and `rails db:migrate` to set up your local database.
 5. Run `rails console` to open a console in the environment. From here you will be able to make edits to the application from your local environment.
+
 
 
 ### Usage
@@ -56,7 +56,8 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-T## Authors
+
+ Authors
 
 👤 **Maryjane Akpagbue**
 
@@ -70,6 +71,9 @@ T## Authors
 - Github: [@Joseph-Burke](hhttps://github.com/Joseph-Burke)
 - Twitter: [@__joeburke](https://twitter.com/__joeburke)
 - Linkedin: [Joseph Burke](https://www.linkedin.com/in/--joeburke)
+
+
+
 
 ## Contributing
 
@@ -88,6 +92,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-
-
-
